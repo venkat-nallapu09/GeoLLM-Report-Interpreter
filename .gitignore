@@ -1,0 +1,117 @@
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+############################
+# Virtual Environments
+############################
+venv/
+.venv/
+env/
+ENV/
+
+############################
+# Environment & Secrets
+############################
+.env
+.env.*
+*.key
+*.pem
+
+############################
+# Jupyter / Notebooks
+############################
+.ipynb_checkpoints/
+.notebook/
+*.nbconvert.ipynb
+
+############################
+# Data (Geotechnical)
+# NEVER commit large PDFs or reports
+############################
+data/raw/
+data/processed/
+data/interim/
+data/embeddings/
+data/vectorstore/
+*.pdf
+*.tif
+*.tiff
+*.dwg
+*.dxf
+*.las
+
+############################
+# OCR & Document Processing Artifacts
+############################
+ocr_outputs/
+temp/
+tmp/
+
+############################
+# LLM / ML Artifacts
+############################
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.safetensors
+*.npy
+*.npz
+
+############################
+# Vector Databases
+############################
+chroma/
+faiss/
+milvus/
+weaviate/
+
+############################
+# Logs & Monitoring
+############################
+logs/
+*.log
+
+############################
+# Streamlit
+############################
+.streamlit/secrets.toml
+
+############################
+# Config Overrides
+# (Base config.yaml is tracked; local overrides are not)
+############################
+config.local.yaml
+configs/*.local.yaml
+
+############################
+# OS / Editor
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# Testing / Coverage
+############################
+.pytest_cache/
+.coverage
+htmlcov/
+
+############################
+# Archives
+############################
+*.zip
+*.tar
+*.tar.gz
+*.7z
