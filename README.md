@@ -9,7 +9,7 @@ From a research perspective, the project evaluates LLM effectiveness in technica
 
 
 ```
-GeoLLM/
+GeoLLM-Report-Interpreter/
 ├── data/                    # Raw & processed datasets (do NOT commit large PDFs; use .gitignore)
 │   ├── raw/                 # Original geotechnical reports, boring logs (add samples only)
 │   ├── processed/           # Cleaned text/JSON outputs (gitignored if large)
