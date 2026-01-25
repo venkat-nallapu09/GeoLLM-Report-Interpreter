@@ -8,7 +8,7 @@ The system ingests raw geotechnical documents (PDFs, scanned boring logs, and la
 From a research perspective, the project evaluates LLM effectiveness in technical civil engineering language, compares prompt-based and retrieval-augmented extraction strategies, analyzes error modes, and assesses consistency against human expert interpretations. The long-term vision is a geotechnical AI co-pilot that enhances standardization, scalability, and efficiency in subsurface data interpretation.
 
 
-'''
+```
 GeoLLM/
 ├── data/                    # Raw & processed datasets (do NOT commit large PDFs; use .gitignore)
 │   ├── raw/                 # Original geotechnical reports, boring logs (add samples only)
@@ -41,4 +41,4 @@ GeoLLM/
 ├── pyproject.toml           # Optional: if using poetry/ modern packaging
 └── docs/                    # Documentation, literature notes, meeting logs
     └── literature_review.md
-'''
+```
