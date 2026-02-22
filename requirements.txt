@@ -1,2 +1,5 @@
 python==3.10
 pytorch
+cuda 
+
+
